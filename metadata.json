@@ -1,0 +1,18 @@
+{
+    "drivers": [
+      {
+        "name": "SI4703",
+        "type": "receiver",
+        "model": "SI4703",
+        "manufacturer": "Silicon Labs",
+        "driver_path": "https://github.com/ideasworkcn/micropython-hardware-drivers/drivers/communication/i2c/si4703.py",
+        "interface": "I2C",
+        "protocol": "I2C",
+        "dependencies": ["machine"],
+        "examples": ["https://github.com/ideasworkcn/micropython-hardware-drivers/examples/si4703_example.py"],
+        "documentation": "https://www.silabs.com/documents/public/data-sheets/Si4702-03-C19.pdf",
+        "version": "1.0.0",
+        "tags": ["temperature", "humidity"]
+      }
+    ]
+  }
